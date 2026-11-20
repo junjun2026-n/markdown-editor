@@ -1,3 +1,14 @@
+# ============================================================
+# 文件名称：CMakeLists.txt
+# 生成日期：2026-10-31
+# 修改日期：2026-11-20
+# 版本信息：v0.261115
+# 作    者：JUN
+# 备    注：本程序由AI辅助完成。
+#           文件功能：定义 C++ 项目构建目标和依赖。
+#           文件用途：供工具的 TOOLS/MARKDOWN/cpp/CMakeLists.txt 模块使用。
+#           注意事项：运行前检查依赖与配置；涉及数据或服务变更时先备份并验证。
+# ============================================================
 cmake_minimum_required(VERSION 3.21)
 project(MarkdownNative VERSION 0.261115 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)

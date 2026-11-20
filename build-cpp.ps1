@@ -1,3 +1,14 @@
+# ============================================================
+# 文件名称：build-cpp.ps1
+# 生成日期：2026-10-31
+# 修改日期：2026-11-20
+# 版本信息：v0.261115
+# 作    者：JUN
+# 备    注：本程序由AI辅助完成。
+#           文件功能：执行 build-cpp 对应的启动、构建或运维任务。
+#           文件用途：供工具的 TOOLS/MARKDOWN/build-cpp.ps1 模块使用。
+#           注意事项：运行前检查依赖与配置；涉及数据或服务变更时先备份并验证。
+# ============================================================
 param([string]$QtRoot='C:\Qt\6.7.1\mingw_64',[string]$CompilerRoot='C:\Qt\Tools\mingw1120_64')
 $ErrorActionPreference='Stop'
 Set-Location $PSScriptRoot
